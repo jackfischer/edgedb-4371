@@ -6,11 +6,8 @@ module default {
 
     type ImplementationType extending AbstractLinkTarget {}
 
-    type ConcreteLinkTarget {}
-
     type LinkSource {
         link abstractTarget -> AbstractLinkTarget;
-        required link concreteTarget -> ConcreteLinkTarget;
     }
 
 }
