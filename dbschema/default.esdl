@@ -9,7 +9,7 @@ module default {
     type ConcreteLinkTarget {}
 
     type LinkSource {
-        required link abstractTarget -> AbstractLinkTarget;
+        link abstractTarget -> AbstractLinkTarget;
         required link concreteTarget -> ConcreteLinkTarget;
     }
 
